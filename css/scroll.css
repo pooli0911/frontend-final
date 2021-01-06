@@ -1,0 +1,19 @@
+.imgscroll{
+    display:flex;
+    justify-content: space-around;
+}
+.img1{
+    animation-delay: 0.1s;
+}
+.img2{
+    animation-delay: 0.3s;
+}
+.img3{
+    animation-delay: 0.5s;
+}
+.img4{
+    animation-delay: 0.7s;
+}
+.img5{
+    animation-delay: 0.9s;
+}

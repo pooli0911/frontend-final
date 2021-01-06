@@ -1,0 +1,95 @@
+
+.dscri{
+    left: 0;
+    width: 60%;
+    width: 700px;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:#153a4d;
+    letter-spacing: 0.08em;
+    line-height: 40px;
+    margin-top: 300px;
+    margin-right: 5%;
+
+}
+.dscri p{
+    margin-top: 30px;
+}
+.scene {
+    transform: translateY(var(--translateY));
+    transition-timing-function: ease-in-out;
+}
+
+.hand_cup {
+    position: relative;
+    width: 40%;
+    height: 730px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.content_mcman {
+    position: absolute;
+    width: 70%;
+    margin-left: 10%;
+    animation-name: rotate;
+    animation-timing-function: step-start;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    transform-origin: 20% 80%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    6.25% {
+        transform: rotate(2deg);
+    }
+    12.5% {
+        transform: rotate(4deg);
+    }
+    18.75% {
+        transform: rotate(6deg);
+    }
+    25% {
+        transform: rotate(8deg);
+    }
+    31.25% {
+        transform: rotate(10deg);
+    }
+    37.5% {
+        transform: rotate(12deg);
+    }
+    43.75% {
+        transform: rotate(14deg);
+    }
+    50% {
+        transform: rotate(16deg);
+    }
+    56.25% {
+        transform: rotate(14deg);
+    }
+    62.5% {
+        transform: rotate(12deg);
+    }
+    68.75% {
+        transform: rotate(10deg);
+    }
+    75% {
+        transform: rotate(8deg);
+    }
+    81.25% {
+        transform: rotate(6deg);
+    }
+    87.5% {
+        transform: rotate(4deg);
+    }
+    93.75% {
+        transform: rotate(2deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

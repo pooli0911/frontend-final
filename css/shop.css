@@ -1,0 +1,152 @@
+/* shop */
+
+#app {
+    height: auto;
+    margin-left: 119px;
+    margin-top: 126px;
+    display: flex;
+}
+
+.taiwan {
+    width: 45%;
+}
+
+.taiwan path {
+    stroke: #153a4d;
+    fill: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.taiwan path:hover {
+    content: '';
+    fill: #b69764;
+    transform: translate(-4px, -4px);
+}
+
+.area {
+    flex-direction: column;
+}
+
+.title_area {
+    margin-left: 110px;
+    width: 50%;
+    height: 777px;
+    right: 20px;
+    top: 20px;
+    font-size: 30px;
+}
+
+h1 span {
+    color: #b69764;
+}
+
+.forcast {
+    height: 700px;
+    display: flex;
+    overflow: hidden;
+    /* background-color: gray; */
+}
+
+.first6 {
+    width: 315px;
+    height: 700px;
+    justify-content: space-between;
+}
+
+.second6 {
+    width: 315px;
+}
+
+hr {
+    width: 100px;
+    border: none;
+    border-bottom: solid 2px black;
+}
+
+.taiwan {
+    width: 477px;
+}
+
+.forcast a.pla {
+    font-family: 'Noto Serif TC', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #153A4D;
+}
+
+.forcast a.pla:hover {
+    transition: 0.3s;
+    border-bottom: 1px solid #153A4D;
+}
+
+.forcast p {
+    font-family: 'Noto Serif TC', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #153A4D;
+}
+
+a.tel {
+    font-family: 'Noto Serif TC', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #153A4D;
+}
+
+@media screen and (max-width:600px) {
+    .forcast {
+        height: 1400px;
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: gray; */
+    }
+    .first6 {
+        width: 100%;
+        height: 700px;
+        justify-content: space-between;
+    }
+    .second6 {
+        width: 100%;
+    }
+    .title_area {
+        margin-left: 50px;
+    }
+    .forcast a.pla {
+        font-family: 'Noto Serif TC', serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 34px;
+        color: #153A4D;
+    }
+    .forcast a.pla:hover {
+        transition: 0.3s;
+        border-bottom: 1px solid #153A4D;
+    }
+    .forcast p {
+        font-family: 'Noto Serif TC', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #153A4D;
+    }
+    a.tel {
+        font-family: 'Noto Serif TC', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 26px;
+        color: #153A4D;
+    }
+    .bottom {
+        margin-top: 750px;
+    }
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE</title>
+    <link rel="icon" href="./img/weblogo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/img.css">
+    <link rel="stylesheet" href="./css/initiral.css">
+    <link rel="stylesheet" href="./css/rwd.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/sign.css">
+    <link rel="stylesheet" href="./css/load.css">
+
+
+    <!-- Firebase App is always required and must be first -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+    <!-- Add additional services that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-storage.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="contentwrap">
+            <header>
+                <div class="head">
+                    <div id="logo">
+                        <a href="index.html">
+                            <h1 class="logo_img"><img src="./img/logo_top.png" alt="KEBUKE" height="30"></h1>
+                        </a>
+                    </div>
+                    <!-- logo -->
+                    <div class="pc_hamburger">
+                        <input type="checkbox" />
+                        <svg>
+                            <use xlink:href="#menu" />
+                            <use xlink:href="#menu" />
+                        </svg>
+                    </div>
+
+                    <!-- SVG -->
+                    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 56" id="menu">
+                            <path
+                                d="M48.33,45.6H18a14.17,14.17,0,0,1,0-28.34H78.86a17.37,17.37,0,0,1,0,34.74H42.33l-21-21.26L47.75,4" />
+                        </symbol>
+                    </svg>
+                    <div id="menu" class="hmenu">
+
+
+
+                        <div class="menu_bg"></div>
+
+                        <nav class="pc_menu">
+                            <div class="main_menu">
+                                <div class="menu_list_wrap">
+                                    <ul class="menu_list">
+                                        <li class="titles">
+                                            <a href="#" class="highlight">聯名系列</a>
+                                        </li>
+                                        <li class="titles">
+                                            <a href="#" class="highlight">消息</a>
+                                        </li>
+                                        <li class="titles">
+                                            <a href="shop.html" class="highlight">門市</a>
+                                        </li>
+                                        <li class="titles">
+                                            <a href="#" class="highlight">商城</a>
+                                        </li>
+                                        <li class="titles">
+                                            <a href="signin.html" class="highlight">個人帳戶</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- menu_list_wrap -->
+                            </div>
+                            <!-- main_menu -->
+                        </nav>
+                    </div>
+                    <!-- menu -->
+                    <nav id="pos">
+                        <ul class="menu">
+                            <li><a href="#">聯名系列</a></li>
+                            <li><a href="#">消息</a></li>
+                            <li><a href="shop.html">門市</a></li>
+                            <li><a href="https://www.kebukeshop.com/products">商城</a></li>
+                            <li><a href="signin.html">個人帳戶</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div id="shop">
+        <div class="tag">
+            <h3>個人帳戶</h3>
+            <img src="./img/title_bg.png" alt="">
+        </div>
+    </div>
+    </div>
+    <div class="signout">
+        <h4>個人頁面架設中</h4>
+        <button type="button" class="btn btn-info shadow mt-3 px-2 col-12" id="btnSignOut">登出</button>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="bottom">
+        <div id="page_top">
+            <a href="#">
+                <img src="./img/page_top.png">
+            </a>
+        </div>
+        <div class="footleft">
+            <p>客服專線: 0800-000-961<br>週一至週五: 09:00 AM - 18:00PM</p>
+        </div>
+        <div class="footright">
+            <div class="icon">
+                <a href="https://www.facebook.com/kebuke2008" target="_blank"><img src="./img/icon-facebook.png"
+                        alt=""></a>
+                <a href="https://www.instagram.com/kebukeofficial/" target="_blank"><img src="./img/icon-instagram.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/hm.js"></script>
+    <script src="./js/jquery-1.9.0.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/sign.js"></script>
+    <script src="./js/jquery.easing.1.3.js"></script>
+</body>
+
+</html>
